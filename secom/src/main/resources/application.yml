@@ -1,6 +1,6 @@
 spring:
   application:
-    name: busan
+    name: secom
   datasource: 
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: SPRING
@@ -12,8 +12,7 @@ server:
 
 
 mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.kh.busan.api.model.vo
+  
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
@@ -23,4 +22,4 @@ logging:
     java.sql: DEBUG
     jdbc.sqlonly: DEBUG
     jdbc.resultset: DEBUG
-    jdbc.audit: DEBUG		
+    jdbc.audit: DEBUG   
