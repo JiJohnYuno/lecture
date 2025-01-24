@@ -1,6 +1,6 @@
 spring:
   application:
-    name: secom
+    name: secoms
   datasource: 
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: SECOM
